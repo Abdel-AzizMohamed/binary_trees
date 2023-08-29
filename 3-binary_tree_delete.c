@@ -2,12 +2,15 @@
 
 
 /**
+ * binary_tree_delete - frees out a binary tree
+ * @tree: given tree to free
  *
+ * Return: Nothing
 */
 void binary_tree_delete(binary_tree_t *tree)
 {
 	if (!tree)
-		return;
+		return
 
 	binary_tree_delete(tree->left);
 	binary_tree_delete(tree->right);
