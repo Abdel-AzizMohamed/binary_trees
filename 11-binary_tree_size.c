@@ -2,7 +2,10 @@
 
 
 /**
+ * binary_tree_size - gets the tree size from tree node
+ * @tree: tree node to search from
  *
+ * Return: tree size
 */
 size_t binary_tree_size(const binary_tree_t *tree)
 {
