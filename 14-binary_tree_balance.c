@@ -27,7 +27,7 @@ int binary_tree_balance(const binary_tree_t *tree)
  *
  * Return: the tree hight from a node
 */
-size_t _binary_tree_height(const binary_tree_t *tree)
+int _binary_tree_height(const binary_tree_t *tree)
 {
 	size_t left_hei = 0, right_hei = 0;
 
